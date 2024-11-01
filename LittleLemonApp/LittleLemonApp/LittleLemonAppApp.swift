@@ -11,7 +11,7 @@ import SwiftUI
 struct LittleLemonAppApp: App {
     var body: some Scene {
         WindowGroup {
-            Onboarding(firstName: "olha", lastName: "ko", email: "test@gmail.com")
+            Onboarding(firstName: "", lastName: "", email: "")
         }
     }
 }

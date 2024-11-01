@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HeroView: View {
-    private var isRegistered: Bool = true
+    private var isRegistered: Bool = false
     
     var body: some View {
         ZStack(alignment: .top) {

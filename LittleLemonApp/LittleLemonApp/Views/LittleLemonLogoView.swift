@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LittleLemonLogo: View {
+struct LittleLemonLogoView: View {
     var body: some View {
         Image("littleLemonLogo")
             .resizable()
@@ -17,5 +17,5 @@ struct LittleLemonLogo: View {
 }
 
 #Preview {
-    LittleLemonLogo()
+    LittleLemonLogoView()
 }
