@@ -22,9 +22,9 @@ struct TextFieldView: View {
             TextField(placeholderText, text: $textField) { isFocused in
                 self.isFocused = isFocused
             }
-            .padding()
+            .padding(8)
             .font(.callout)
-            .fontWeight(.medium)
+            .fontWeight(.regular)
             .foregroundColor(isFocused ? .primaryGreen : .gray3)
             .overlay(
                 RoundedRectangle(cornerRadius: 16)
@@ -32,8 +32,7 @@ struct TextFieldView: View {
                 )
             .autocorrectionDisabled()
         }
-        .padding(.horizontal)
-        .padding(.bottom, 16)
+        .padding(.bottom, 8)
     }
 }
 

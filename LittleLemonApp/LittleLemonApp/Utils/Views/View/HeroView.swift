@@ -37,16 +37,16 @@ struct HeroView: View {
                 }
                 
                 // Show the button in case if the user registered
-                if isRegistered {
-                    Button {}
-                     label: {
-                        Text("Reserve A Table")
-                            .fontWeight(.bold)
-                    }
-                    .padding(EdgeInsets(top: 12, leading: 24, bottom: 12, trailing: 24))
-                    .foregroundStyle(.gray3)
-                    .background(.secondaryYellow, in: Capsule())
-                }
+//                if isRegistered {
+//                    Button {}
+//                     label: {
+//                        Text("Reserve A Table")
+//                            .fontWeight(.bold)
+//                    }
+//                    .padding(EdgeInsets(top: 12, leading: 24, bottom: 12, trailing: 24))
+//                    .foregroundStyle(.gray3)
+//                    .background(.secondaryYellow, in: Capsule())
+//                }
             }
             .padding(16)
         }

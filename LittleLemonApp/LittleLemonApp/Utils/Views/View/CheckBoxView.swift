@@ -7,7 +7,7 @@
 import SwiftUI
 
 struct CheckBoxView: View {
-    @State private var isChecked: Bool = false
+    @Binding var isChecked: Bool
     @State var itemText: String
     
     var body: some View {
@@ -49,5 +49,5 @@ struct CheckboxToggleStyle: ToggleStyle {
 
 
 #Preview {
-    CheckBoxView(itemText: "Text description here")
+    CheckBoxView(isChecked: .constant(true), itemText: "Text description here")
 }
