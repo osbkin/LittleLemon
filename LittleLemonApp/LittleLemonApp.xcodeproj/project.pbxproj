@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		592618012CCFADA90010CF22 /* LittleLemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		592FA4E52CDA62E80026EC5B /* LittleLemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,8 @@
 			isa = PBXGroup;
 			children = (
 				592618032CCFADA90010CF22 /* LittleLemonApp */,
-				592618022CCFADA90010CF22 /* Products */,
+				592FA4E52CDA62E80026EC5B /* LittleLemonApp.app */,
 			);
-			sourceTree = "<group>";
-		};
-		592618022CCFADA90010CF22 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				592618012CCFADA90010CF22 /* LittleLemonApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,7 +59,7 @@
 			packageProductDependencies = (
 			);
 			productName = LittleLemonApp;
-			productReference = 592618012CCFADA90010CF22 /* LittleLemonApp.app */;
+			productReference = 592FA4E52CDA62E80026EC5B /* LittleLemonApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +87,7 @@
 			mainGroup = 592617F82CCFADA90010CF22;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 592618022CCFADA90010CF22 /* Products */;
+			productRefGroup = 592617F82CCFADA90010CF22;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
