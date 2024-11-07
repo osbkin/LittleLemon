@@ -31,3 +31,10 @@ struct MenuItem: Codable, Identifiable {
         case category = "category"
     }
 }
+
+enum MenuCategory: String, CaseIterable {
+    case starters
+    case mains
+    case desserts
+    case drinks
+}

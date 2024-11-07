@@ -14,7 +14,7 @@ struct HeroView: View {
         ZStack(alignment: .top) {
             Rectangle()
                 .fill(Color.primaryGreen)
-                .frame(minHeight: 335, maxHeight: 350)
+                .frame(minHeight: 300, maxHeight: 330)
                 
             VStack(alignment: .leading, spacing: 8) {
                 Text("Litte Lemon")
