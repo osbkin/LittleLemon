@@ -12,7 +12,7 @@ struct SearchField: View {
     @Binding var searchText: String
     
     // Define the initial and expanded widths
-    private let initialWidth: CGFloat = 20
+    private let initialWidth: CGFloat = 40
     private let expandedWidth: CGFloat = UIScreen.main.bounds.width - 64
     
     var body: some View {
@@ -21,13 +21,13 @@ struct SearchField: View {
                 .padding(10)
                 .padding(.horizontal, 30)
                 .foregroundColor(.gray3)
-                .background(isEditing ? Color.white.opacity(0.3) : Color.white.opacity(0.1))
+                .background(isEditing ? Color.white.opacity(0.3) : Color.secondaryYellow)
                 .cornerRadius(isEditing ? 16 : 22)
                 .frame(width: isEditing ? expandedWidth : initialWidth) // Adjust width based on isEditing state
                 .overlay(
                     HStack {
                         Image(systemName: "magnifyingglass")
-                            .foregroundColor(.white)
+                            .foregroundColor(isEditing ? .white: .primaryGreen)
                             .padding(.leading, 8)
                         
                         Spacer()
@@ -39,7 +39,7 @@ struct SearchField: View {
                                 Image(systemName: "xmark.circle.fill")
                                     .foregroundColor(.white)
                                     .padding(.trailing, 8)
-                                    .onTapGesture(perform: { CGPoint in
+                                    .onTapGesture(perform: { _ in
                                         isEditing = false
                                     })
                             }

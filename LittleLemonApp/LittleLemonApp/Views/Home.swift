@@ -13,7 +13,7 @@ struct Home: View {
 
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(spacing: 0) {
                 HStack {
                     Spacer()
                     LittleLemonLogoView()
@@ -36,11 +36,7 @@ struct Home: View {
                 .padding(.horizontal)
                 
                 HeroView()
-                
-                // Menu categories
-                MenuCategoriesView()
-                    .padding(.horizontal)
-                
+               
                 // MenuItems
                 MenuDishes()
             }
